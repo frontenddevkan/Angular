@@ -1,19 +1,63 @@
 
 
 body {
-    width: 80%;
-    height: 100vh;
+    width: 100%;
+    height: 1300px;
+    background-image: url(../img/grass.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
 
-.header {
-    display: block;
-    width: 100%;
-    height: 30%;
-    background-image: url(../img/buttles.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 
+
+.wrapper {
+    width: 100%;
+    height: 1300px;
+   background-color: rgba(209, 219, 227, 0.827);
+   margin: 0;
+   padding: 0;
 }
 
+.header {
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(90deg, #085f18cd, #fff);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__hello {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+.header__logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
