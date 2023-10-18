@@ -1,2 +1,2 @@
 # Angular
-This project is created with html, css, js adn Angular for commercial project
+This project is created with html, css, js and Angular for commercial project
