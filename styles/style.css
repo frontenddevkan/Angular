@@ -1,16 +1,43 @@
+
+
+
+@font-face {
+    font-family: 'MiamaNueva';
+    src: url('../fonts/miamanueva.otf') format('opentype');
+    src: url('../fonts/miamanueva.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caveat-Regular';
+    src: url('../fonts/Caveat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Dance_partner';
+    src: url('../fonts/Dance_partner.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html {
+    scroll-behavior: smooth;
+    width: 100vw;
     box-sizing: border-box;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: 'Dance_partner', sans-serif;
+
 }
 
 body {
-    width: 100%;
-    height: 1300px;
+    width: 100vw;
     background-image: url(../img/grass.jpg);
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-size: cover;
+    background-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -18,20 +45,19 @@ body {
 
 
 .wrapper {
-    width: 100%;
-    height: 1300px;
+   width: 100vw;
    background-color: rgba(209, 219, 227, 0.827);
-   margin: 0;
-   padding: 0;
+   margin: 0 auto;
+
 }
 
 .header {
     position: relative;
-    width: 100%;
-    height: 300px;
-    padding: 20px;
-    background-image: linear-gradient(90deg, #fff, #085f18cd);
+    width: 100vw;
+    background-image: linear-gradient(45deg, #ffffff, #085f18cd);
     transition: background-color 2s linear;
+    padding-bottom: 15px;
+    padding-right: 30px;
 
 }
 
@@ -40,27 +66,24 @@ body {
     }
 
 .container {
-
     width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    justify-content: flex-start;
+    gap: 20px;
     margin: 0;
     padding: 0;
 
 }
 
 .header__hello {
-    width: 50%;
+    width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     color: #fff;
-    margin-right: -8%;
-
+    text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
+    padding-top: 10px;
 }
 
 
@@ -72,38 +95,109 @@ body {
     margin-bottom: 10px;
     border: 5px solid rgba(255, 255, 255, 0.568);
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4{
     margin: 0;
     padding: 0;
+
 }
 
+h5, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat-Regular', sans-serif;
+    font-size: 20px;
+}
 .header__logo {
-    width: 900px;
-    height: 300px;
+    width: 100vw;
     display: flex;
     justify-content: flex-start;
-    z-index: 10;
-    color: #fff;
-    text-shadow: #085f18cd 2px 2px 2px;
+    row-gap: 16px;
+    align-items: flex-start;
 
+    z-index: 10;
+    color: #1f7d30e1;
+    text-shadow:rgba(116, 142, 113, 0.671)  2px 2px 2px;
+    font-family: 'MiamaNueva', sans-serif;
+    margin-top: 20px;
 
 }
 
 .logo {
     width: 90px;
     height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .header__title {
     height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+h2 {
+    text-shadow: #fff 2px 2px 2px;
+}
 .header__background {
     position: absolute;
-    width: 40%;
+    width: 50%;
     height: 100%;
     top: 0;
     left: 0;
     opacity: 0.8;
     z-index: 1;
+}
+
+.header__contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    align-self: center;
+
+    color: #fff;
+    text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1f7d30e1;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Caveat-Regular', sans-serif;
+    cursor: pointer;
+    text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #1f7d30e1;
+    font-size: 22px;
+}
+
+.phone {
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+
+
+}
+
+.phone:hover {
+    transform: scale(1.3);
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    white-space: nowrap;
 }
