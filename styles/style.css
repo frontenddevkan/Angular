@@ -105,7 +105,7 @@ h5, button {
     margin: 0;
     padding: 0;
     font-family: 'Caveat-Regular', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
 }
 .header__logo {
     width: 100vw;
@@ -174,7 +174,8 @@ h2 {
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #1f7d30e1;
+    background-image: linear-gradient(45deg, #0faabb, #085f18cd);
+
     color: #fff;
     font-size: 23px;
     font-family: 'Caveat-Regular', sans-serif;
