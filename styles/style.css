@@ -31,7 +31,6 @@
 
 html {
     scroll-behavior: smooth;
-    width: 100vw;
     box-sizing: border-box;
     font-size: 20px;
     font-family: 'dance_partner', sans-serif;
@@ -39,19 +38,18 @@ html {
 }
 
 body {
-    width: 100vw;
+
     background-image: url(../img/grass.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    margin: 0;
-    padding: 0;
+
 }
 
 
 
 .wrapper {
-   width: 100vw;
+   max-width: 2000px;
    background-color: rgba(209, 219, 227, 0.827);
    margin: 0 auto;
 
@@ -72,12 +70,12 @@ body {
     }
 
 .header__container {
-    width: 100%;
+
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 
 }
 
@@ -110,7 +108,7 @@ h5, button {
     font-size: 28px;
 }
 .header__logo {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     row-gap: 16px;
@@ -163,11 +161,11 @@ h5, button {
 
 .header__contact {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-end;
     flex-direction: column;
-    gap: 30px;
-    align-self: center;
+    gap: 10px;
+    align-self: flex-end;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
@@ -265,8 +263,8 @@ h5, button {
     /* artical */
 
     .artical__title {
+        width: 100%;
 
-    width: 100%;
     height: 7rem;
         background-color: #0faabb95;
 
@@ -287,6 +285,7 @@ h5, button {
 
 
     .advantages {
+
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -294,7 +293,9 @@ h5, button {
         justify-content: center;
         gap: 25px;
         background-image: linear-gradient(45deg, #ffffff, #085f18cd);
-        padding: 35px;
+        margin: 0;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
 .advantages > h2 {
@@ -333,6 +334,8 @@ p {
 }
 
 .artical__container {
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -367,7 +370,7 @@ p {
 
     .footer {
         width: 100%;
-        background-color: #0faabb95;
+        background-color: #0faabb63;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -390,4 +393,12 @@ p {
         font-size: 16px;
         margin-bottom: 10px;
         color: rgba(255, 255, 255, 0.585);
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
     }
