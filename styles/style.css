@@ -21,8 +21,8 @@
 
 
 @font-face {
-    font-family: 'Dance_partner';
-    src: url('../fonts/Dance_partner.ttf') format('truetype');
+    font-family: 'dance_partner';
+    src: url('../fonts/dance_partner.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,7 +33,7 @@ html {
     width: 100vw;
     box-sizing: border-box;
     font-size: 20px;
-    font-family: 'Dance_partner', sans-serif;
+    font-family: 'dance_partner', sans-serif;
 
 }
 
@@ -271,7 +271,7 @@ h5, button {
         justify-content: center;
         align-items: center;
 
-        font-family: 'Dance_partner';
+        font-family: 'dance_partner';
         font-size: 50px;
 
         font-weight: 800;
