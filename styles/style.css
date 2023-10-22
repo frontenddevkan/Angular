@@ -159,18 +159,32 @@ h5, button {
     z-index: 1;
 }
 
+.footer > .header__contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 15px;
+    align-self: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
+}
 .header__contact {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
-    gap: 10px;
-    align-self: flex-end;
+    gap: 14px;
+    align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
 }
 
+h4, h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
 .button {
     width: 200px;
     height: 50px;
@@ -259,7 +273,27 @@ h5, button {
 
     }
 
+    .email-address {
+        text-decoration: underline;
+    }
+.email {
+    width: 30px;
+    height: 30px;
+}
+    .viber {
+        width: 40px;
+        height: 40px;
 
+    }
+    .telegram {
+        width: 40px;
+        height: 40px;
+
+    }
+    .whatsapp {
+        width: 40px;
+        height: 40px;
+    }
     /* artical */
 
     .artical__title {
@@ -381,7 +415,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 300px;
+        gap: 100px;
         padding: 30px;
         color: #fff;
         font-family: 'Caveat-Regular', sans-serif;
@@ -402,4 +436,15 @@ p {
         gap: 10px;
         flex-direction: column;
     }
+
+
+.footer__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+
 
