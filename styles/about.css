@@ -496,7 +496,7 @@ p {
 
    .footer {
     width: 100%;
-    background-color: #0faabb63;
+    background-color: #0faabb40;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -586,6 +586,7 @@ h4, h3 {
 width: 30px;
 height: 30px;
 }
+
 h5, button {
     margin: 0;
     padding: 0;
