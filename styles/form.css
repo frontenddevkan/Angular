@@ -56,8 +56,8 @@ body {
 }
 
 .header {
+    max-height: 300px;
     position: relative;
-
     background-image: linear-gradient(45deg, #ffffff, #085f18cd);
     transition: background-color 2s linear;
     padding-bottom: 15px;
@@ -87,7 +87,7 @@ body {
     flex-direction: column;
     color: #fff;
     text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
-    padding-top: 10px;
+
 }
 
 
@@ -159,32 +159,17 @@ h5, button {
     z-index: 1;
 }
 
-.footer > .header__contact {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    gap: 15px;
-    align-self: center;
-    font-family: Verdana, Helvetica, sans-serif;
-    color: #fff;
-    text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
-}
 .header__contact {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
     flex-direction: column;
-    gap: 14px;
-    align-self: center;
+    gap: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
 }
 
-h4, h3 {
-    font-family: 'Courier New', Courier, monospace;
-}
 .button {
     width: 200px;
     height: 50px;
@@ -273,33 +258,12 @@ h4, h3 {
 
     }
 
-    .email-address {
-        text-decoration: underline;
-    }
-.email {
-    width: 30px;
-    height: 30px;
-}
-    .viber {
-        width: 40px;
-        height: 40px;
 
-    }
-    .telegram {
-        width: 40px;
-        height: 40px;
-
-    }
-    .whatsapp {
-        width: 40px;
-        height: 40px;
-    }
     /* artical */
 
     .artical__title {
         width: 100%;
 
-    height: 7rem;
         background-color: #0faabb95;
 
         display: flex;
@@ -307,12 +271,14 @@ h4, h3 {
         align-items: center;
 
         font-family: 'dance_partner';
-        font-size: 50px;
+        font-size: 40px;
 
         font-weight: 800;
         color: #fff;
         text-shadow:rgba(9, 17, 15, 0.895)  8px 8px 8px;
-        margin-bottom: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
     }
 
 
@@ -325,7 +291,7 @@ h4, h3 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 25px;
+        gap: 35px;
         background-image: linear-gradient(45deg, #ffffff, #085f18cd);
         margin: 0;
         padding-top: 25px;
@@ -334,23 +300,36 @@ h4, h3 {
 
 .advantages > h2 {
     font-family: 'Caveat-Regular';
-    color:rgba(18, 42, 36, 0.925);
-    text-shadow:rgba(24, 52, 45, 0.803)  4px 4px 4px;
+    color:rgba(11, 57, 46, 0.925);
+    text-shadow:rgba(148, 238, 215, 0.729)  5px 6px 74px;
 
 }
 
-.advantages__img {
-    margin-right: 19px;
-}
-.advantages__list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
     font-weight: 600;
     margin-bottom: 25px;
+    border: 1px solid #fff;
+    padding: 35px;
+    border-radius: 15px;
 
 }
+
+.form-input {
+    width: 94%;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.form-input::placeholder {
+    color:rgba(46, 109, 39, 0.501);
+}
+
+
+
 .separator {
     margin-bottom: 25px;
 }
@@ -374,10 +353,12 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+
     margin-top: 15px;
 
+
 }
+
 
 .artical__text {
     width: 80%;
@@ -393,11 +374,7 @@ p {
 
    }
 
-   .Samuel {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-   }
+
 
 
    /* footer */
@@ -415,7 +392,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 100px;
+        gap: 300px;
         padding: 30px;
         color: #fff;
         font-family: 'Caveat-Regular', sans-serif;
@@ -437,14 +414,6 @@ p {
         flex-direction: column;
     }
 
-
-.footer__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    flex-direction: column;
-}
-
-
-
+    .footer > .header__contact, .header__phone {
+        gap: 30px;
+    }
