@@ -145,7 +145,7 @@ h5, button {
     margin-left: 15%;
 }
 
-.header >h2 {
+.header > h2 {
     text-shadow: #fff 2px 2px 2px;
 }
 
@@ -273,6 +273,9 @@ h4, h3 {
 
     }
 
+
+    /* artical */
+
     .email-address {
         text-decoration: underline;
     }
@@ -333,7 +336,7 @@ h4, h3 {
     }
 
 .advantages > h2 {
-    font-family: 'Caveat-Regular';
+    font-family: 'Caveat-Regular', sans-serif;
     color:rgba(18, 42, 36, 0.925);
     text-shadow:rgba(24, 52, 45, 0.803)  4px 4px 4px;
 
