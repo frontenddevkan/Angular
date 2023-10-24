@@ -283,19 +283,26 @@ h5, button {
 
 
 
-
     .advantages {
 
         width: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 25px;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 15px;
         background-image: linear-gradient(45deg, #ffffff, #085f18cd);
         margin: 0;
-        padding-top: 25px;
-        padding-bottom: 25px;
+
+    }
+
+
+    .wrapper-contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 15px;
+        flex-direction: column;
     }
 
 .advantages > h2 {
@@ -310,7 +317,7 @@ h5, button {
 }
 .advantages__list {
     display: flex;
-    flex-direction: column;
+
     align-items: flex-start;
     gap: 25px;
     font-weight: 600;
@@ -337,7 +344,7 @@ p {
     width: 100%;
 
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     justify-content: center;
     gap: 15px;
