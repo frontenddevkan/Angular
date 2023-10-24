@@ -49,7 +49,7 @@ body {
 
 
 .wrapper {
-   max-width: 2000px;
+   max-width: 3000px;
    background-color: rgba(209, 219, 227, 0.827);
    margin: 0 auto;
 
@@ -145,7 +145,7 @@ h5, button {
     margin-left: 15%;
 }
 
-.header >h2 {
+.header > h2 {
     text-shadow: #fff 2px 2px 2px;
 }
 
@@ -159,16 +159,21 @@ h5, button {
     z-index: 1;
 }
 
+
 .header__contact {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
-    gap: 10px;
-    align-self: flex-end;
+    gap: 14px;
+    align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
+}
+
+h4, h3 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .button {
@@ -276,11 +281,53 @@ h5, button {
         font-size: 50px;
 
         font-weight: 800;
-
         color: #fff;
         text-shadow:rgba(9, 17, 15, 0.895)  8px 8px 8px;
         margin-bottom: 25px;
+    }
 
+
+
+    .email-address {
+        text-decoration: underline;
+    }
+.email {
+    width: 30px;
+    height: 30px;
+}
+    .viber {
+        width: 40px;
+        height: 40px;
+
+    }
+    .telegram {
+        width: 40px;
+        height: 40px;
+
+    }
+    .whatsapp {
+        width: 40px;
+        height: 40px;
+    }
+    /* artical */
+
+    .artical__title {
+        width: 100%;
+
+    height: 7rem;
+        background-color: #0faabb95;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'dance_partner';
+        font-size: 50px;
+
+        font-weight: 800;
+        color: #fff;
+        text-shadow:rgba(9, 17, 15, 0.895)  8px 8px 8px;
+        margin-bottom: 25px;
     }
 
 
@@ -300,12 +347,12 @@ h5, button {
         padding-bottom: 25px;
     }
 
-.advantages > h2 {
-    font-family: 'Caveat-Regular', sans-serif;
-    color:rgba(32, 75, 64, 0.925);
-    text-shadow:rgba(142, 182, 172, 0.803)  5px 6px 7px;
-    font-size: 50px;
-}
+    .advantages > h2 {
+        font-family: 'Caveat-Regular', sans-serif;
+        color:rgba(18, 42, 36, 0.925);
+        text-shadow:rgba(24, 52, 45, 0.803)  4px 4px 4px;
+
+    }
 
 .advantages__img {
     margin-right: 19px;
@@ -313,11 +360,13 @@ h5, button {
 .advantages__list {
     display: flex;
     flex-direction: column;
-
+    align-items: flex-start;
+    gap: 25px;
     font-weight: 600;
     margin-bottom: 25px;
-    list-style: none;
+
 }
+
 .separator {
     margin-bottom: 25px;
 }
@@ -330,7 +379,18 @@ p {
     font-weight: bold;
 }
 
+.advantages__list {
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+.advantages__item {
+
+    list-style: none;
+}
 
 .artical__container {
     width: 100%;
@@ -339,21 +399,22 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    gap: 15px;
     margin-top: 15px;
 
-} 
+}
 
 .artical__text {
-    width: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 35px;
     margin-top: 15px;
     margin-bottom: 15px;
     border: 2px solid rgba(46, 109, 39, 0.501);
-    padding: 15px;
+    padding: 45px;
     border-radius: 15px;
 
    }
@@ -364,18 +425,11 @@ p {
     font-size: 30px;
     opacity: 0.7;
   }
-
-
-  .wrapper-myths {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 60px;
-  }
+  .Samuel {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+   }
 
    /* footer */
 
@@ -392,7 +446,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 300px;
+        gap: 200px;
         padding: 30px;
         color: #fff;
         font-family: 'Caveat-Regular', sans-serif;
@@ -411,6 +465,14 @@ p {
         align-items: center;
         justify-content: center;
         gap: 10px;
+        flex-direction: column;
+    }
+
+    .footer__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
         flex-direction: column;
     }
 
