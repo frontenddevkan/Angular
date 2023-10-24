@@ -294,7 +294,7 @@ h5, button {
 
         align-items: center;
         justify-content: center;
-        gap: 144px;
+        gap: 77px;
         background-image: linear-gradient(45deg, #ffffff, #085f18cd);
         margin: 0;
         padding-top: 65px;
@@ -317,7 +317,7 @@ h5, button {
     color: #043b2acc;
     text-shadow: #ffffff54 1px 4px 3px;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 16%;
 
 }
 
