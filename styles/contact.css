@@ -320,7 +320,10 @@ h5, button {
     margin-left: 16%;
 
 }
-
+.wrapper-contact > h5 {
+    color: rgba(255, 255, 255, 0.802);
+    font-size: 29px;
+}
 .wrapper-photo > p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -447,3 +450,6 @@ p {
         flex-direction: column;
     }
 
+    .email-address {
+        text-decoration: underline;
+    }
