@@ -158,17 +158,7 @@ h5, button {
     opacity: 0.8;
     z-index: 1;
 }
-.footer > .header__contact {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
-    gap: 15px;
-    align-self: center;
-    font-family: Verdana, Helvetica, sans-serif;
-    color: #fff;
-    text-shadow:rgba(34, 67, 30, 0.671)  2px 2px 2px;
-}
 
 .header__contact {
     display: flex;
@@ -280,7 +270,7 @@ h4, h3 {
     .artical__title {
         width: 100%;
 
-    height: 7rem;
+        height: 7rem;
         background-color: #0faabb95;
 
         display: flex;
@@ -456,7 +446,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 300px;
+        gap: 200px;
         padding: 30px;
         color: #fff;
         font-family: 'Caveat-Regular', sans-serif;
