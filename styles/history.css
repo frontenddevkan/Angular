@@ -115,13 +115,12 @@ h5, button {
     align-items: flex-start;
 
     z-index: 10;
-    color: #0c533e;
-    text-shadow:rgba(255, 255, 255, 0.99)  7px 7px 7px;
+    color: #951093b5;
+    text-shadow:rgb(255, 253, 254)  3px 3px 3px;
     font-family: 'MiamaNueva', sans-serif;
     margin-top: 20px;
 
 }
-
 .logo {
     width: 100px;
     height: 100px;
