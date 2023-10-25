@@ -53,7 +53,7 @@ body {
 
 
 .wrapper {
-   max-width: 1700px;
+   max-width: 3000px;
    background-color: rgba(209, 219, 227, 0.827);
    margin: 0 auto;
 
@@ -86,7 +86,7 @@ body {
 .header__hello {
     width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #fff;
