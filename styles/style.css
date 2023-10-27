@@ -345,15 +345,22 @@ h4, h3 {
 
 .advantages__img {
     margin-right: 19px;
+
 }
 .advantages__list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 25px;
     font-weight: 600;
-    margin-bottom: 25px;
 
+
+}
+.advantages__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .separator {
     margin-bottom: 25px;
