@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -54,6 +55,7 @@ body {
    margin: 0 auto;
 
 }
+
 
 .header {
     position: relative;
@@ -459,3 +461,91 @@ p {
 
 
 
+/*  ADAPTIVE DESIGNE  */
+
+@media (max-width: 1100px) {
+    .header__contact {
+        z-index: 100;
+    }
+
+
+    .header__logo {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+        justify-content: flex-start;
+
+    }
+    .advantages {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+    .header__button, .header__contact, .header__copyrigth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        width: 30%;
+    }
+
+    .header__background {
+        opacity: 44%;
+        width: 70%;
+        height: 100%;
+        z-index: 10;
+
+
+    }
+    .header__contact {
+        z-index: 100;
+        color:rgba(18, 42, 36, 0.925);
+
+    };
+    .header__hello {
+        z-index: 200;
+
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+    img {
+        z-index: 100;
+    }
+
+    .header__hello > h2, h3, h4, h5 {
+        z-index: 100;
+        color: rgba(18, 42, 36, 0.925);
+        text-shadow: #fff;
+        font-size: 24px;
+    }
+
+    .container-nav {
+        position: absolute;
+
+    }
+
+    .footer {
+        background-color: floralwhite;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 888px) {
+
+
+
+}
