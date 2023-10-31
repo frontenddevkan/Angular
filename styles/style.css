@@ -837,12 +837,16 @@ html, body {
         left: 130%;
 
     }
+.nav {
+    width: 300px;
 
+}
     .header__hello {
         position: absolute;
         top: 0;
         left: 3%;
         display: flex;
+        flex-direction: row;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -850,16 +854,17 @@ html, body {
     }
 
     .nav__list {
-        width: 160px;
-        height: 90px;
+        width: auto;
+        height: 100px;
         position: absolute;
         top: 180px;
-        left: -340px;
+        left: -30px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         gap: 4px;
         flex-wrap: wrap;
-        padding-right: 20px;
+       
     }
 
     .artical__title {
@@ -892,8 +897,9 @@ html, body {
         font-size: 14px;
  }
     .button {
-        width: 88px;
-        height: 18px;
+        width: 90px;
+        height: 30px;
+        font-size: 17px;
     }
 
 
