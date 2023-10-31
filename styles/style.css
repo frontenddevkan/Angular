@@ -782,7 +782,9 @@ html, body {
 /* ------------------------- ADAPTIVE DESIGNE 688px */
 
 @media (max-width: 688px) {
-
+.advantages__list {
+    width: 70%;
+}
     .wrapper {
        max-width: 688px;
        margin: 0;
@@ -824,10 +826,12 @@ html, body {
 /* ------------------------- ADAPTIVE DESIGNE 508px */
 
 @media (max-width: 508px) {
-
+.advantages__list {
+    width: 70%;
+}
     .wrapper {
        max-width: 508px;
-       margin: 0 auto;
+       margin: 0;
 }
     .photo {
         width: 150px;
@@ -858,13 +862,13 @@ html, body {
         height: 100px;
         position: absolute;
         top: 180px;
-        left: -30px;
+        left: -20%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 4px;
         flex-wrap: wrap;
-       
+
     }
 
     .artical__title {
@@ -878,7 +882,7 @@ html, body {
 }
 .header__container .header__contact {
     margin-top: 80px;
-    margin-left: -150px;
+    margin-left: -52%;
 }
 
     .header__background {
