@@ -28,7 +28,12 @@
     font-style: normal;
 }
 
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 html {
     scroll-behavior: smooth;
@@ -215,6 +220,7 @@ h4, h3 {
     width: 40px;
     height: 40px;
     z-index: 10;
+    margin-right: 10px;
 }
 
 .phone:hover {
