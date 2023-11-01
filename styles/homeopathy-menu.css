@@ -455,7 +455,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 200px;
+        gap: 140px;
         padding: 30px;
         color: #fff;
         font-family: 'Caveat-Regular', sans-serif;
@@ -496,9 +496,16 @@ p {
         text-indent: 25px;
     }
 
+    h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+    }
 
-
+.phone {
+    margin-right: 10px;
+}
 
 
 
@@ -694,6 +701,23 @@ html, body {
 
   p {
     text-indent: 25px;
+}
+
+.section-button {
+    width: 170px;
+    height: 90px;
+    font-size: 20px;
+
+}
+
+.advantages__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
 }
 }
 
@@ -915,14 +939,35 @@ html, body {
         text-indent: 25px;
     }
 
+
+
+
+.section-button {
+    width: 170px;
+    height: 90px;
+    font-size: 20px;
+
+}
+.nav__button {
+width: 90px;
+height: 30px;
+
+}
+.advantages__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
 }
 
 /* ------------------------- ADAPTIVE DESIGNE 508px */
 
 @media (max-width: 508px) {
-.advantages__list {
-    width: 70%;
-}
+
     .wrapper {
        max-width: 508px;
        margin: 0;
@@ -961,8 +1006,8 @@ html, body {
         width: auto;
         height: 100px;
         position: absolute;
-        top: 194px;
-        left: -20%;
+        top: 104px;
+        left: -22%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -991,27 +1036,19 @@ html, body {
         z-index: 10;
     }
 
-.advantages__list {
-    width: 68%;
-}
 
 
  .header__hello > h2, h3, h4, h5, p {
 
         font-size: 14px;
  }
-    .button {
-        width: 90px;
-        height: 30px;
-        font-size: 17px;
-    }
 
 
     .disable {
         display: none;
     }
 
-    .wrapper-advantages, li {
+    .wrapper-advantages {
         width: 99%;
 
 
@@ -1028,6 +1065,27 @@ html, body {
 
     .wrapper-advantages {
         width: 100%;
+    }
+
+    .section-button {
+        width: 170px;
+        height: 90px;
+        font-size: 20px;
+
+    }
+.nav__button {
+    width: 90px;
+    height: 30px;
+
+}
+    .advantages__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+
     }
 }
 

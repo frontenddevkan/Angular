@@ -520,7 +520,10 @@ p {
         gap: 10px;
         width: 30%;
     }
-
+    .email-address > a {
+        color:rgba(18, 42, 36, 0.925);
+     }
+     
     .header__background {
         opacity: 44%;
         width: 70%;
@@ -631,9 +634,7 @@ html, body {
   }
 }
 
-.email-address > a {
-    color:rgba(18, 42, 36, 0.925);
- }
+
 
 
 /*-----------------------  ADAPTIVE DESIGNE 888px */
