@@ -832,6 +832,11 @@ html, body {
         font-size: 16px;
 
     }
+.section-button {
+    width: 158px;
+    height: 51px;
+    font-size: 16px;
+}
 
     h2 {
         font-size: 16px;
