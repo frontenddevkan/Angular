@@ -448,7 +448,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 200px;
+        gap: 140px;
         padding: 30px;
         color: #fff;
         font-family: 'Caveat-Regular', sans-serif;
@@ -898,6 +898,10 @@ html, body {
 /* ------------------------- ADAPTIVE DESIGNE 688px */
 
 @media (max-width: 688px) {
+
+    .artical__container {
+        margin-bottom: 30px;
+    }
 .advantages__list {
     width: 70%;
 }
@@ -1073,6 +1077,22 @@ height: 30px;
 
     .artical__container > p, .advantages > p, .artical__text > p {
         text-indent: 25px;
+    }
+
+    .artical__container {
+        width: 89%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+        margin-left: 4%;
+        margin-bottom: 30px;
+    }
+
+    .artical__title {
+        border-radius: 20px;
     }
 
     .wrapper-advantages {
