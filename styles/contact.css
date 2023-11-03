@@ -1065,6 +1065,10 @@ height: 30px;
     width: 300px;
 
 }
+.wrapper-contact > h5, .info-email {
+    color: rgba(18, 42, 36, 0.739);
+}
+
 
 .artical__text {
     display: flex;

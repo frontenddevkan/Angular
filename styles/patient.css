@@ -1034,4 +1034,37 @@ html, body {
         width: 98%;
         padding: 10px;
     }
+
+    .header__hello > h2, h3, h4, h5, p {
+
+        font-size: 19px;
+ }
+.header__container .header__contact {
+    margin-top: 99px;
+    margin-left: -42%;
+}
+ .header__hello {
+        position: absolute;
+        top: 0;
+        left: 3%;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 3px;
+    }
+    .header__container .header__contact {
+        width: 57%;
+        margin-top: 103px;
+        margin-left: -42%;
+        z-index: 200;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+
 }

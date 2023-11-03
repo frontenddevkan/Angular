@@ -523,7 +523,7 @@ p {
     .email-address > a {
         color:rgba(18, 42, 36, 0.925);
      }
-     
+
     .header__background {
         opacity: 44%;
         width: 70%;
@@ -848,6 +848,17 @@ html, body {
        max-width: 508px;
        margin: 0;
 }
+
+.header__hello > h2, h3, h4, h5, p {
+
+    font-size: 19px;
+}
+
+
+.artical__text > h5 {
+    font-size: 28px;
+   }
+
     .photo {
         width: 150px;
         height: 150px;
@@ -860,16 +871,17 @@ html, body {
     width: 300px;
 
 }
+
     .header__hello {
         position: absolute;
         top: 0;
         left: 3%;
         display: flex;
-        flex-direction: row;
+
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        gap: 1px;
+        gap: 3px;
     }
 
     .nav__list {
@@ -896,8 +908,14 @@ html, body {
 
 }
 .header__container .header__contact {
-    margin-top: 80px;
-    margin-left: -52%;
+    width: 57%;
+    margin-top: 109px;
+    margin-left: -42%;
+    z-index: 200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
     .header__background {
@@ -910,17 +928,24 @@ html, body {
     width: 68%;
 }
 
+.artical__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 
- .header__hello > h2, h3, h4, h5, p {
+}
 
-        font-size: 14px;
- }
+.artical__text > h5 {
+    font-size: 28px;
+   }
     .button {
         width: 90px;
         height: 30px;
         font-size: 17px;
     }
-
+.header__container > .button {
+    margin-top: 29px;
+}
 
     .disable {
         display: none;
